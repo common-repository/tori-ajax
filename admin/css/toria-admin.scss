@@ -1,0 +1,29 @@
+.toria{
+    &.welcome{
+        width: 100%;
+        //background-color: rgb(0, 248, 41);
+        *{
+            width: 100%;
+            padding: 4px;
+            box-sizing: border-box;
+        }
+        .section{
+            .images{
+                .image{
+                    img{
+                        //box shadow.
+                        $horizontal_shadow_length:0px;
+                        $vertical_shadow_length:0px;
+                        $blur_radius:5px;
+                        $spread_radius:6px;
+                        $color:rgba(0,0,0,0.75);
+                        box-shadow:$horizontal_shadow_length $vertical_shadow_length $blur_radius $spread_radius $color;
+                        -webkit-box-shadow:$horizontal_shadow_length $vertical_shadow_length $blur_radius $spread_radius $color;
+                        -moz-box-shadow:$horizontal_shadow_length $vertical_shadow_length $blur_radius $spread_radius $color;
+                    }
+                  
+                }
+            }
+        }
+    }
+}
